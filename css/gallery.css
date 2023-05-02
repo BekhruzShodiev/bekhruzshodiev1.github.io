@@ -1,0 +1,15 @@
+.gallery {
+  margin: 10px 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallery a img{
+  width: 400px;
+  height: 300px;
+  margin: 20px;
+}
+
+.gallery img:hover {
+  filter: grayscale();
+  transform: scale(1.1);
+}
